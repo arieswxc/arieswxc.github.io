@@ -1,0 +1,236 @@
+@import url('./content.css');
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 18px;
+    font-family: "FZHei-B01", "SimHei";
+}
+body{
+	background:#EFF3F5;
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+.header-nav {
+    width: 100%;
+    margin: 0 auto;
+    background: #009dd9;
+    overflow: hidden;
+}
+.dh {
+    width: 1024px;
+    margin: 0 auto;
+}
+.logo {
+    width: 163px;
+    height: 62px;
+    margin: 11px 70px 0 20px;
+    float: left;
+}
+.list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.header-list {
+    overflow: hidden;
+    margin: 0 auto;
+    float: left;
+}
+.nav-item {
+    cursor: pointer;
+    display: inline-block;
+    _display: inline;
+    float: left;
+    width: 90px;
+    height: 84px;
+    line-height: 84px;
+    text-align: center;
+    font-size: 18px;
+}
+.nav-selected {
+    background: #26b8ef;
+}
+.nav-item {
+    /*text-decoration: none;*/
+    color: #FFFFFF;
+}
+.footer {
+    width: 1024px;
+    margin: 30px auto 0 auto;
+    padding: 30px 0;
+    color: #808080;
+    text-align: center;
+    font-size: 14px;
+}
+.content {
+    padding: 0;
+    width: 960px;
+    margin: 40px auto;
+    overflow: hidden;
+}
+.bapiItems {
+    width: 644px;
+    float: left;
+    overflow: hidden;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+.load-more, .hf-more {
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #fff;
+    color: #1f1f1f;
+    padding: 7px 0px;
+    border-radius: 4px;
+}
+
+/*  下载插件的样式  */
+.imask {
+    /*display: none;*/
+    z-index: 200;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.p-item {
+    width: 283px;
+    height: 335px;
+    background: #fff;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: auto;
+    right: 0;
+    bottom: 0;
+    z-index: 200;
+    color: #333;
+}
+.box-right {
+    width: 266px;
+    height: 326px;
+    background: #fff;
+    font-size: 14px;
+    padding: 20px 10px 15px 20px;
+    float: right;
+}
+.bapiDownload {
+    width: 266px;
+    height: 326px;
+    background: #fff;
+    font-size: 14px;
+    padding: 20px 10px 15px 20px;
+    float: right;
+}
+.app {
+    width: 90px;
+    height: 90px;
+    float: left;
+    margin-right: 15px;
+}
+.intro {
+    width: 154px;
+    float: left;
+}
+.app-title {
+    margin-top: 6px;
+    font-size: 18px;
+    color: #1f1f1f;
+}
+.intro p {
+    color: #808080;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+.download {
+    cursor: pointer;
+    float: left;
+    height: 40px;
+    margin-top: 23px;
+    width: 120px;
+    overflow: hidden;
+}
+.download1 {
+    width: 120px;
+    height: 80px;
+    background: url(../img/ios.png) no-repeat center;
+    background-size: cover;
+}
+.download2 {
+    width: 120px;
+    height: 80px;
+    background: url(../img/ad.png) no-repeat center;
+    background-size: cover;
+}
+.erweima {
+	width: 100%;
+	overflow: hidden;
+    margin-top: 20px;
+    float: left;
+}
+.sm {
+    float: left;
+    margin: 60px 50px 0 6px;
+    color: #1f1f1f;
+    font-size: 16px;
+}
+.ewm-pic {
+    margin-bottom: 20px;
+    width: 120px;
+    height: 120px;
+    margin-top: 15px;
+}
+
+
+/* reportbox */
+.report-box {
+    background: #fff;
+    padding: 20px;
+    color: #141414;
+    font-size: 14px;
+    border: 1px solid #eee;
+}
+.list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.report-list {
+    text-align: center;
+}
+.report-item {
+    display: inline-block;
+    cursor: pointer;
+    width: 32%;
+    height: 20px;
+    line-height: 20px;
+    margin: 12px;
+    padding-left: 24px;
+    background: url("../img/nord.png") no-repeat left center;
+    background-size: 18px 18px;
+    text-align: left;
+}
+.report-btn {
+    width: 84%;
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px 0;
+    color: #ffffff;
+    background: #009dd9;
+    font-size: 18px;
+}
+.report-item.selected {
+    background-image: url("../img/seord.png");
+}
