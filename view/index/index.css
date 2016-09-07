@@ -1,0 +1,52 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+html, body{
+	background: black;
+}
+.head_box{
+	font-size: 0;
+	height: 2.8rem;
+	background: #19191b;
+}
+.head_img{
+	width: 1.6rem;
+	height: 1.6rem;
+	border-radius: 50%;
+	float: left;
+	margin-left: .2rem;
+	margin-top: .6rem;
+}
+.head_info{
+	float: left;
+	color: white;
+	margin-left: .4rem; 
+	margin-top: .8rem;
+}
+.head_info .name{
+	font-size: .32rem;
+}
+.head_info .motto{
+	font-size: .26rem;
+	margin-top: .3rem;
+}
+.album_box{
+	font-size: 0;
+	background: #312837;
+}
+.album_box img{
+	width: 1.6rem;
+	height: 1.6rem;
+	margin: .2rem 0;
+	margin-left: .2rem;
+	border-radius: .1rem;
+}
+.ad_box{
+	margin-top: .2rem;
+}
+.ad_box .title{
+	font-size: .32rem;
+	color: red;
+}
+.ad_box{}
