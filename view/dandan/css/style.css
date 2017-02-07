@@ -883,7 +883,7 @@
 	// transition-delay: 4s;
 }
 .ly-txt22 .promise{
-	opacity: 0;
+	opacity: 1;
 }
 .ly-txt22 .promise1{
 	animation:promise1 60s;
