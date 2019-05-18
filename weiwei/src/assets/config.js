@@ -40,7 +40,7 @@ export const projectInfoArr = [
 export const personalInfoArr = [
     {
         name: '插画',
-        length: 7,
+        length: 2,
     },
     {
         name: 'c4d',
@@ -48,7 +48,7 @@ export const personalInfoArr = [
     },
     {
         name: '手绘',
-        length: 7,
+        length: 2,
     },
     
 ]

@@ -1,21 +1,24 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router'
-import Home from './components/home/index.vue'
-import ProjectList from './components/project/list'
-import PersonalList from './components/personal/list'
-import ProjectDetail from './components/project/detail'
-import PersonalDetail from './components/personal/detail'
-import Contract from './components/contract'
+const Home = () =>  import('./components/home/index.vue')
+const ProjectList = () =>  import('./components/project/list')
+const PersonalList = () =>  import('./components/personal/list')
+const ProjectDetail = () =>  import('./components/project/detail')
+const PersonalDetail = () =>  import('./components/personal/detail')
+const Contract = () =>  import('./components/contract')
 
 Vue.use(VueRouter)
 let routes = [{
 	path: '/',
-	component: Home,
+    component: Home,
+    redirect: '/home',
+
 }, {
 	path: '/home', 
 	component: Home ,
 }, {
-	path: '/project/list', 
+    path: '/project/list', 
+    name: 'projectlist',
 	component: ProjectList ,
 }, {
 	path: '/personal/list', 

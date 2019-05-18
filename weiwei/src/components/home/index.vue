@@ -1,7 +1,10 @@
 <template>
 	<div class="content">
     	<img class="bg-image" src="../../assets/home_bg.jpg"/>
-        <img class="bg-logo" src="../../assets/logo.png" />
+        <div @click="onJumbClick" class="c-info">
+            <img class="i-logo" src="../../assets/logo.png" />
+            <div class="i-name">UI/UE设计师</div> 
+        </div>
 	</div>
 </template>
 
@@ -11,7 +14,15 @@
 	  data() {
 	    return {
 	    }
-	  },
+      },
+      
+      methods: {
+          onJumbClick() {
+              this.$router.push({
+                name: 'projectlist',
+            })
+          },
+      },
 
 	  computed: {
 	  	
@@ -23,12 +34,30 @@
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="less" scoped>
     .content{
+        overflow: hidden;
+        height: 100%;
         .bg-image{
+            height: 100%;
+        }
+        .c-info{
             width: 100%;
-        }
-        .bg-logo{
             position: absolute;
-
+            height: 200px;
+            top: 50%;
+            margin-top: -100px;
+            background: white;
+            text-align: center;
+            cursor: pointer;
+            .i-logo{
+                margin-top: 40px;
+                width: 300px;
+            }
+            .i-name{
+                color: #555;
+                font-size: 24px;
+                margin-top: 20px;
+            }
         }
+        
     }
 </style>
