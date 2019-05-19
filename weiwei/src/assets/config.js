@@ -39,17 +39,20 @@ export const projectInfoArr = [
 
 export const personalInfoArr = [
     {
-        name: '插画',
+        name: 'shouhui',
         length: 2,
     },
     {
         name: 'c4d',
-        length: 7,
-    },
-    {
-        name: '手绘',
         length: 2,
     },
-    
+    {
+        name: 'chahua',
+        length: 2,
+    },
+    {
+        name: 'other',
+        length: 2,
+    },
 ]
 

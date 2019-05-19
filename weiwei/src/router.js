@@ -33,6 +33,7 @@ let routes = [{
     },
 }, {
 	path: '/personal/detail/:type',
+    name: 'personaldetail',
 	component: PersonalDetail,
 	props: (route) => {
         return { 

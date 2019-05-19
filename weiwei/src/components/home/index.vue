@@ -1,6 +1,6 @@
 <template>
 	<div class="content">
-    	<img class="bg-image" src="../../assets/home_bg.jpg"/>
+    	<!-- <img class="bg-image" src="../../assets/home_bg.jpg"/> -->
         <div @click="onJumbClick" class="c-info">
             <img class="i-logo" src="../../assets/logo.png" />
             <div class="i-name">UI/UE设计师</div> 
@@ -34,8 +34,10 @@
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="less" scoped>
     .content{
-        overflow: hidden;
+        // overflow: hidden;
         height: 100%;
+        background: url(../../assets/home_bg.jpg);
+        background-size: cover;
         .bg-image{
             height: 100%;
         }
